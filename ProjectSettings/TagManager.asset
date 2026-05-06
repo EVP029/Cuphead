@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - FallZone
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - Water
   - UI
   - FallZone
-  - 
-  - 
+  - Player
+  - Bullet
   - 
   - 
   - 
