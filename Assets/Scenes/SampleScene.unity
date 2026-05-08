@@ -1023,8 +1023,32 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5401687835994046607, guid: 5b2c0e33d63604f73a0a7f4a5c4eb6de, type: 3}
+      propertyPath: dashTime
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5401687835994046607, guid: 5b2c0e33d63604f73a0a7f4a5c4eb6de, type: 3}
+      propertyPath: fireRate
+      value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5401687835994046607, guid: 5b2c0e33d63604f73a0a7f4a5c4eb6de, type: 3}
+      propertyPath: dashSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5401687835994046607, guid: 5b2c0e33d63604f73a0a7f4a5c4eb6de, type: 3}
       propertyPath: ghostRiseSpeed
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5401687835994046607, guid: 5b2c0e33d63604f73a0a7f4a5c4eb6de, type: 3}
+      propertyPath: controllerDeadzone
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5401687835994046607, guid: 5b2c0e33d63604f73a0a7f4a5c4eb6de, type: 3}
+      propertyPath: shootOffsetDucking.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5401687835994046607, guid: 5b2c0e33d63604f73a0a7f4a5c4eb6de, type: 3}
+      propertyPath: shootOffsetStanding.y
+      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
