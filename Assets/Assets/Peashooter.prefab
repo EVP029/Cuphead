@@ -165,5 +165,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   speed: 20
-  damage: 1
   lifeTime: 2
+  isSpecial: 0
