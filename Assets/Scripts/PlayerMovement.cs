@@ -9,10 +9,11 @@ public class PlayerMovement : MonoBehaviour
     [Range(0.1f, 0.9f)]
     public float controllerDeadzone = 0.2f;
 
-    [Header("Jump")]
-    public float jumpForce = 11f; 
-    public float fallMultiplier = 4f; 
-    public float lowJumpMultiplier = 2.2f; 
+    [Header("Jump Reworked")]
+    public float jumpForce = 12f; 
+    public float gravityMultiplierAscending = 2.0f;   // Reducido ligeramente para una subida más fluida
+    public float gravityMultiplierDescending = 4.0f;  // Caída rápida y firme
+    public float gravityMultiplierLowJump = 3.0f;     // Gravedad base de salto corto (amortiguada por código)
 
     [Header("Dash")]
     public float dashSpeed = 18f;     
@@ -44,10 +45,9 @@ public class PlayerMovement : MonoBehaviour
     public float parryBounceForce = 12f;
     private bool canParry = true;
 
-    [Header("Ground Check")]
-    public Transform groundCheck;
-    public float groundCheckRadius = 0.3f;
+    [Header("Ground Check (BoxCast)")]
     public LayerMask groundLayer;
+    public LayerMask platformLayer; 
 
     [Header("Collider Profiles")]
     public Vector2 standingSize = new Vector2(0.8f, 1.8f);
@@ -61,10 +61,10 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 introSize = new Vector2(0.8f, 1.8f); 
     public Vector2 introOffset = new Vector2(0f, 0.9f); 
 
-    [Header("Health & Combat")]
+    [Header("Health & Combat Reworked")]
     public int health = 3;
-    public float damageBounceForce = 10f;
-    public float hitStunTime = 0.4f;
+    public float damageJumpForce = 5f; 
+    public float hitStunTime = 0.3f;
     public float fallBounceForce = 28f;
     public float invincibilityTime = 1.5f;
 
@@ -89,8 +89,8 @@ public class PlayerMovement : MonoBehaviour
     private bool isInvincible;
     private bool isDead;
     private bool isGettingHit;
+    private bool isDroppingThroughPlatform = false; 
 
-    // --- NUEVAS VARIABLES PARA ARREGLAR LA GRAVEDAD DEL DASH ---
     private Coroutine currentDashCoroutine;
     private float defaultGravity;
 
@@ -102,7 +102,6 @@ public class PlayerMovement : MonoBehaviour
         playerCollider = GetComponent<BoxCollider2D>();
         rb.freezeRotation = true;
 
-        // GUARDAMOS LA GRAVEDAD BASE AL INICIAR
         defaultGravity = rb.gravityScale;
 
         if (isIntroPlaying)
@@ -116,7 +115,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isDead || isGettingHit || isIntroPlaying || isUsingSpecial) return;
 
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        isGrounded = Physics2D.BoxCast(playerCollider.bounds.center, playerCollider.bounds.size, 0f, Vector2.down, 0.1f, groundLayer) && rb.linearVelocity.y <= 0.01f;
+
         if (isGrounded && !isDashing)
         {
             canDash = true;
@@ -147,20 +147,27 @@ public class PlayerMovement : MonoBehaviour
         UpdateColliderState();
         UpdateFirePointPosition();
 
+        // CONTROL DE ENTRADA DEL SALTO / DESCENSO
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown("joystick button 0"))
         {
-            if (isGrounded && !isDucking && !isDashing)
+            if (isDucking && !isDashing)
+            {
+                StartCoroutine(DropDownRoutine());
+            }
+            else if (isGrounded && !isDucking && !isDashing)
+            {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            }
             else if (!isGrounded)
+            {
                 TryParry();
+            }
         }
 
-        // --- BOTÓN B CON DASH-CANCEL ---
         if (Input.GetKeyDown(KeyCode.V) || Input.GetKeyDown(KeyCode.JoystickButton1))
         {
             if (currentCards > 0 && !isUsingSpecial) 
             {
-                // Si estábamos dasheando, lo cancelamos
                 if (isDashing && currentDashCoroutine != null)
                 {
                     StopCoroutine(currentDashCoroutine);
@@ -172,7 +179,6 @@ public class PlayerMovement : MonoBehaviour
 
         if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown("joystick button 4")) && !isDashing && canDash)
         {
-            // Guardamos la referencia de la corrutina al iniciarla
             currentDashCoroutine = StartCoroutine(DashRoutine());
         }
 
@@ -188,35 +194,49 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (!isDashing) UpdateAnimations();
-        FlipSprite();
+        FlipSpriteSprite();
     }
 
     void FixedUpdate()
     {
         if (isDead || isDashing || isGettingHit || isUsingSpecial) return;
         
-        bool lockMovement = isDucking || (isLookingUp && isShooting && isGrounded);
-        float targetSpeed = lockMovement ? 0 : moveInput * moveSpeed;
+        float targetSpeed = isDucking || (isLookingUp && isShooting && isGrounded) ? 0 : moveInput * moveSpeed;
         rb.linearVelocity = new Vector2(targetSpeed, rb.linearVelocity.y);
 
-        if (rb.linearVelocity.y < 0)
-            rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
-        else if (rb.linearVelocity.y > 0 && !Input.GetButton("Jump"))
-            rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.fixedDeltaTime;
+        // --- SISTEMA DE GRAVEDAD DINÁMICA SUAVIZADO ---
+        if (!isGrounded)
+        {
+            if (isDroppingThroughPlatform || rb.linearVelocity.y < 0)
+            {
+                // Cayendo: Peso ideal para el gameplay reactivo
+                rb.gravityScale = defaultGravity * gravityMultiplierDescending;
+            }
+            else if (rb.linearVelocity.y > 0 && !(Input.GetKey(KeyCode.Space) || Input.GetButton("Jump")))
+            {
+                // Salto Corto Suavizado: Amortigua la velocidad vertical progresivamente en lugar de frenar en seco
+                rb.gravityScale = defaultGravity * gravityMultiplierAscending;
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.85f);
+            }
+            else
+            {
+                // Subiendo normalmente con el botón presionado
+                rb.gravityScale = defaultGravity * gravityMultiplierAscending;
+            }
+        }
+        else
+        {
+            rb.gravityScale = defaultGravity;
+        }
     }
 
-    // --- CORRUTINA PARA ATAQUE ESPECIAL ---
     IEnumerator LaunchSpecialRoutine()
     {
         isUsingSpecial = true;
         currentCards--;
-        
         animator.SetBool("SpecialAttack", true);
-        
-        // Usamos la gravedad original sin crear una variable local
         rb.gravityScale = 0;
         rb.linearVelocity = Vector2.zero; 
-
         animator.Play("SpecialAttack", 0, 0f); 
 
         yield return new WaitForSeconds(specialShotDelay);
@@ -233,10 +253,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         yield return new WaitForSeconds(Mathf.Max(0, specialFreezeTime - specialShotDelay));
-
         animator.SetBool("SpecialAttack", false);
-
-        // Restauramos usando la gravedad por defecto siempre
         rb.gravityScale = defaultGravity;
         isUsingSpecial = false;
 
@@ -281,12 +298,10 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsJumping", false); 
         animator.Play("Dash", 0, 0f); 
         
-        // Aplicamos gravedad cero directo
         rb.gravityScale = 0; 
         rb.linearVelocity = new Vector2(transform.localScale.x * dashSpeed, 0); 
         yield return new WaitForSeconds(dashTime); 
         
-        // Restauramos a la gravedad por defecto guardada al inicio
         rb.gravityScale = defaultGravity; 
         isDashing = false; 
         if (isDead || isGettingHit) yield break; 
@@ -334,8 +349,11 @@ public class PlayerMovement : MonoBehaviour
     void UpdateAnimations() 
     { 
         if (isDead || isGettingHit || isDashing) return; 
-        animator.SetFloat("Speed", isDucking ? 0 : Mathf.Abs(moveInput)); 
-        animator.SetBool("IsJumping", !isGrounded); 
+
+        bool deVerdadEstaPisando = isGrounded && Mathf.Abs(rb.linearVelocity.y) < 0.1f;
+
+        animator.SetFloat("Speed", isDucking ? 0 : (deVerdadEstaPisando ? Mathf.Abs(moveInput) : 0f)); 
+        animator.SetBool("IsJumping", !deVerdadEstaPisando); 
         animator.SetBool("IsDucking", isDucking); 
         animator.SetBool("IsLookingUp", isLookingUp); 
     }
@@ -351,7 +369,7 @@ public class PlayerMovement : MonoBehaviour
 
     void SetCollider(Vector2 size, Vector2 offset) { playerCollider.size = size; playerCollider.offset = offset; }
 
-    void FlipSprite() 
+    void FlipSpriteSprite() 
     { 
         if (isDashing || isDead || isGettingHit) return; 
         if (moveInput > 0) transform.localScale = new Vector3(1, 1, 1); 
@@ -373,8 +391,14 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsDucking", false); 
         animator.SetFloat("Speed", 0f); 
         animator.SetTrigger("IsHit"); 
+        
         rb.linearVelocity = Vector2.zero; 
-        if (applyKnockback) rb.AddForce(new Vector2(-transform.localScale.x * 5f, damageBounceForce), ForceMode2D.Impulse); 
+        
+        if (applyKnockback) 
+        {
+            rb.AddForce(Vector2.up * damageJumpForce, ForceMode2D.Impulse); 
+        }
+        
         yield return new WaitForSeconds(hitStunTime); 
         isGettingHit = false; 
     }
@@ -435,5 +459,41 @@ public class PlayerMovement : MonoBehaviour
         if (isDead || isGettingHit || isInvincible) return; 
         TakeDamage(false); 
         if (!isDead) rb.linearVelocity = new Vector2(0, fallBounceForce); 
+    }
+
+    // DESCENSO DE PLATAFORMAS VELOZ E INDESTRUCTIBLE
+    IEnumerator DropDownRoutine()
+    {
+        ContactPoint2D[] contacts = new ContactPoint2D[10];
+        int contactCount = playerCollider.GetContacts(contacts);
+
+        Collider2D platformToIgnore = null;
+
+        for (int i = 0; i < contactCount; i++)
+        {
+            if (contacts[i].collider.GetComponent<PlatformEffector2D>() != null || 
+                contacts[i].collider.GetComponentInParent<PlatformEffector2D>() != null)
+            {
+                platformToIgnore = contacts[i].collider;
+                break;
+            }
+        }
+
+        if (platformToIgnore != null)
+        {
+            isDroppingThroughPlatform = true;
+            
+            // Impulso vertical veloz hacia abajo para bajar instantáneamente
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, -10f); 
+
+            // Apagamos colisión de forma individual
+            Physics2D.IgnoreCollision(playerCollider, platformToIgnore, true);
+
+            // Tiempo ultra corto para restaurar colisiones de inmediato tras cruzar
+            yield return new WaitForSeconds(0.15f);
+
+            Physics2D.IgnoreCollision(playerCollider, platformToIgnore, false);
+            isDroppingThroughPlatform = false;
+        }
     }
 }

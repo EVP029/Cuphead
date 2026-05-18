@@ -1,0 +1,1963 @@
+fileFormatVersion: 2
+guid: 568313714336541f9bf97f9630a24928
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8097166898067128988
+    second: flower_bg_water_twinkle_0021_0
+  - first:
+      213: 3547378337681929444
+    second: flower_bg_water_twinkle_0021_1
+  - first:
+      213: 2018863227825492148
+    second: flower_bg_water_twinkle_0021_2
+  - first:
+      213: -8217726865027740332
+    second: flower_bg_water_twinkle_0021_3
+  - first:
+      213: 4935523043778552443
+    second: flower_bg_water_twinkle_0021_4
+  - first:
+      213: 4348634985554919772
+    second: flower_bg_water_twinkle_0021_5
+  - first:
+      213: 8052871345167678645
+    second: flower_bg_water_twinkle_0021_6
+  - first:
+      213: 6700290236105183861
+    second: flower_bg_water_twinkle_0021_7
+  - first:
+      213: 3057070703919715740
+    second: flower_bg_water_twinkle_0021_8
+  - first:
+      213: -8965032811255742559
+    second: flower_bg_water_twinkle_0021_9
+  - first:
+      213: -3185355153242433469
+    second: flower_bg_water_twinkle_0021_10
+  - first:
+      213: -2293547533838589543
+    second: flower_bg_water_twinkle_0021_11
+  - first:
+      213: -5028439077045091031
+    second: flower_bg_water_twinkle_0021_12
+  - first:
+      213: 7700794334280393671
+    second: flower_bg_water_twinkle_0021_13
+  - first:
+      213: -4896316305264537551
+    second: flower_bg_water_twinkle_0021_14
+  - first:
+      213: 3056188900006304316
+    second: flower_bg_water_twinkle_0021_15
+  - first:
+      213: 8659124749160597190
+    second: flower_bg_water_twinkle_0021_16
+  - first:
+      213: -5086184739997681521
+    second: flower_bg_water_twinkle_0021_17
+  - first:
+      213: -8008005740978091242
+    second: flower_bg_water_twinkle_0021_18
+  - first:
+      213: 6344232665500107619
+    second: flower_bg_water_twinkle_0021_19
+  - first:
+      213: 6595586059487958330
+    second: flower_bg_water_twinkle_0021_20
+  - first:
+      213: 4838823697275899061
+    second: flower_bg_water_twinkle_0021_21
+  - first:
+      213: 9144777815193067275
+    second: flower_bg_water_twinkle_0021_22
+  - first:
+      213: 7442856032323229079
+    second: flower_bg_water_twinkle_0021_23
+  - first:
+      213: -4391921053416931670
+    second: flower_bg_water_twinkle_0021_24
+  - first:
+      213: -3279760929805377772
+    second: flower_bg_water_twinkle_0021_25
+  - first:
+      213: -6219756214257875777
+    second: flower_bg_water_twinkle_0021_26
+  - first:
+      213: -5838032746081532621
+    second: flower_bg_water_twinkle_0021_27
+  - first:
+      213: 877122040820868937
+    second: flower_bg_water_twinkle_0021_28
+  - first:
+      213: -8064787600976202905
+    second: flower_bg_water_twinkle_0021_29
+  - first:
+      213: 3007069398042984034
+    second: flower_bg_water_twinkle_0021_30
+  - first:
+      213: 3527773743142657344
+    second: flower_bg_water_twinkle_0021_31
+  - first:
+      213: -2890850035217639937
+    second: flower_bg_water_twinkle_0021_32
+  - first:
+      213: 1489024927258622443
+    second: flower_bg_water_twinkle_0021_33
+  - first:
+      213: 1149034365258360106
+    second: flower_bg_water_twinkle_0021_34
+  - first:
+      213: -2533904042351379174
+    second: flower_bg_water_twinkle_0021_35
+  - first:
+      213: -857785905916522490
+    second: flower_bg_water_twinkle_0021_36
+  - first:
+      213: 2022650611909648895
+    second: flower_bg_water_twinkle_0021_37
+  - first:
+      213: 6788678839089638208
+    second: flower_bg_water_twinkle_0021_38
+  - first:
+      213: -6153758362279850584
+    second: flower_bg_water_twinkle_0021_39
+  - first:
+      213: -6881942721184929904
+    second: flower_bg_water_twinkle_0021_40
+  - first:
+      213: -6072543934124920011
+    second: flower_bg_water_twinkle_0021_41
+  - first:
+      213: -5187535664780775494
+    second: flower_bg_water_twinkle_0021_42
+  - first:
+      213: 3062730148048987298
+    second: flower_bg_water_twinkle_0021_43
+  - first:
+      213: 8134912838145836426
+    second: flower_bg_water_twinkle_0021_44
+  - first:
+      213: 9145352650145821865
+    second: flower_bg_water_twinkle_0021_45
+  - first:
+      213: 6618879710725082920
+    second: flower_bg_water_twinkle_0021_46
+  - first:
+      213: 9196768084953470411
+    second: flower_bg_water_twinkle_0021_47
+  - first:
+      213: 5858374554883306966
+    second: flower_bg_water_twinkle_0021_48
+  - first:
+      213: -1419040867408800582
+    second: flower_bg_water_twinkle_0021_49
+  - first:
+      213: -2927704107567284124
+    second: flower_bg_water_twinkle_0021_50
+  - first:
+      213: -4190787855509511258
+    second: flower_bg_water_twinkle_0021_51
+  - first:
+      213: -3852841695384191750
+    second: flower_bg_water_twinkle_0021_52
+  - first:
+      213: -6832096778830258027
+    second: flower_bg_water_twinkle_0021_53
+  - first:
+      213: 2039535095347543047
+    second: flower_bg_water_twinkle_0021_54
+  - first:
+      213: 7083118175610060268
+    second: flower_bg_water_twinkle_0021_55
+  - first:
+      213: -7728128000219249098
+    second: flower_bg_water_twinkle_0021_56
+  - first:
+      213: 3654425037297473583
+    second: flower_bg_water_twinkle_0021_57
+  - first:
+      213: -5353124009367754228
+    second: flower_bg_water_twinkle_0021_58
+  - first:
+      213: -5390781104075805128
+    second: flower_bg_water_twinkle_0021_59
+  - first:
+      213: 4847867787085040350
+    second: flower_bg_water_twinkle_0021_60
+  - first:
+      213: 6482135005492122384
+    second: flower_bg_water_twinkle_0021_61
+  - first:
+      213: -7721332097852698143
+    second: flower_bg_water_twinkle_0021_62
+  - first:
+      213: -4086496460456368244
+    second: flower_bg_water_twinkle_0021_63
+  - first:
+      213: 240140337724403293
+    second: flower_bg_water_twinkle_0021_64
+  - first:
+      213: 2889855668782013161
+    second: flower_bg_water_twinkle_0021_65
+  - first:
+      213: 5472042200574333534
+    second: flower_bg_water_twinkle_0021_66
+  - first:
+      213: -5429562009799539157
+    second: flower_bg_water_twinkle_0021_67
+  - first:
+      213: 7027704925861328755
+    second: flower_bg_water_twinkle_0021_68
+  - first:
+      213: -4222400745547745855
+    second: flower_bg_water_twinkle_0021_69
+  - first:
+      213: 1397242865238301730
+    second: flower_bg_water_twinkle_0021_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 66
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d38a95b9511af80800000000000000
+      internalID: -8097166898067128988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 68
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e47275adc1da3130800000000000000
+      internalID: 3547378337681929444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 62
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b013a8c861740c10800000000000000
+      internalID: 2018863227825492148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 68
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d46d4a4f4c4fd80800000000000000
+      internalID: -8217726865027740332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 64
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72ec2d0f008e7440800000000000000
+      internalID: 4935523043778552443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_5
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 74
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5146d3ba74795c30800000000000000
+      internalID: 4348634985554919772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_6
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 49
+        width: 65
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc34ae82db81cf60800000000000000
+      internalID: 8052871345167678645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_7
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 64
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572511758763cfc50800000000000000
+      internalID: 6700290236105183861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_8
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 48
+        width: 54
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c955360bb95ec6a20800000000000000
+      internalID: 3057070703919715740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_9
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 40
+        width: 75
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af316d282ec59380800000000000000
+      internalID: -8965032811255742559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 69
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34856876d585bc3d0800000000000000
+      internalID: -3185355153242433469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_11
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 63
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991e3127baeab20e0800000000000000
+      internalID: -2293547533838589543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_12
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 48
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925c80e1d45673ab0800000000000000
+      internalID: -5028439077045091031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_13
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 61
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3af1f75a7beda60800000000000000
+      internalID: 7700794334280393671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_14
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 32
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13011cc134acc0cb0800000000000000
+      internalID: -4896316305264537551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_15
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 58
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a1e57bc93c96a20800000000000000
+      internalID: 3056188900006304316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_16
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 58
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6c283d4146b2870800000000000000
+      internalID: 8659124749160597190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_17
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 56
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88fc6e3ded3a69b0800000000000000
+      internalID: -5086184739997681521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_18
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 59
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b46b1f439ddd090800000000000000
+      internalID: -8008005740978091242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_19
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 48
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363409ffefd3b0850800000000000000
+      internalID: 6344232665500107619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_20
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a355c41839a388b50800000000000000
+      internalID: 6595586059487958330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_21
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 51
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc4fd6f384f62340800000000000000
+      internalID: 4838823697275899061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_22
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 67
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f9478c8f6c8ee70800000000000000
+      internalID: 9144777815193067275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_23
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 36
+        width: 73
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795dff0a0265a4760800000000000000
+      internalID: 7442856032323229079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_24
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 64
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae36814213cc03c0800000000000000
+      internalID: -4391921053416931670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_25
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 64
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fdebeafc2fb72d0800000000000000
+      internalID: -3279760929805377772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_26
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 31
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb481a34dacfea9a0800000000000000
+      internalID: -6219756214257875777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_27
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 35
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33546be06242bfea0800000000000000
+      internalID: -5838032746081532621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_28
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 42
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9472bc359d92c2c00800000000000000
+      internalID: 877122040820868937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_29
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 54
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763b6dee76e141090800000000000000
+      internalID: -8064787600976202905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_30
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 44
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ebc457fa14bb920800000000000000
+      internalID: 3007069398042984034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_31
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 52
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dd7f7478b25f030800000000000000
+      internalID: 3527773743142657344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_32
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 49
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff55de79533a1e7d0800000000000000
+      internalID: -2890850035217639937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_33
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9b3fa38441aa410800000000000000
+      internalID: 1489024927258622443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_34
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 44
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25e0f7daa032ff00800000000000000
+      internalID: 1149034365258360106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_35
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 32
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d38bcd2b3c5dcd0800000000000000
+      internalID: -2533904042351379174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_36
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 40
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600528863488814f0800000000000000
+      internalID: -857785905916522490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_37
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 60
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1e99bd306e11c10800000000000000
+      internalID: 2022650611909648895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_38
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 38
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b262aaf6b363e50800000000000000
+      internalID: 6788678839089638208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_39
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 58
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad48be9f55799aa0800000000000000
+      internalID: -6153758362279850584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_40
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 50
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097ef23ae8d6e70a0800000000000000
+      internalID: -6881942721184929904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_41
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 50
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533f783377df9bba0800000000000000
+      internalID: -6072543934124920011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 43
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf62113ccb2208b0800000000000000
+      internalID: -5187535664780775494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_43
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 36
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4e655b7d0018a20800000000000000
+      internalID: 3062730148048987298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_44
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85827c202405e070800000000000000
+      internalID: 8134912838145836426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_45
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 28
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a47e99f7c1daee70800000000000000
+      internalID: 9145352650145821865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_46
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 39
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f0fc0570cfadb50800000000000000
+      internalID: 6618879710725082920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_47
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 39
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc51d41c8db71af70800000000000000
+      internalID: 9196768084953470411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_48
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 36
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5b1016e902d4150800000000000000
+      internalID: 5858374554883306966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_49
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 48
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4165879dd8e4ce0800000000000000
+      internalID: -1419040867408800582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_50
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 35
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460000530a4be57d0800000000000000
+      internalID: -2927704107567284124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_51
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 34
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3a55f26a457d5c0800000000000000
+      internalID: -4190787855509511258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_52
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 30
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcbfca24e4f78ac0800000000000000
+      internalID: -3852841695384191750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_53
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 40
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5906bba7d248f21a0800000000000000
+      internalID: -6832096778830258027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_54
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 36
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cf1210d52ed4c10800000000000000
+      internalID: 2039535095347543047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_55
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 27
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedb957e37a4c4260800000000000000
+      internalID: 7083118175610060268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_56
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 34
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6368e28778c20c490800000000000000
+      internalID: -7728128000219249098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_57
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28d86e953027b230800000000000000
+      internalID: 3654425037297473583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_58
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 38
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a25075312e5b5b0800000000000000
+      internalID: -5353124009367754228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_59
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 34
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e6cadb5291035b0800000000000000
+      internalID: -5390781104075805128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_60
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 40
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda43473116174340800000000000000
+      internalID: 4847867787085040350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_61
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 32
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0139b74917b25f950800000000000000
+      internalID: 6482135005492122384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_62
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 28
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e11baacd5158d490800000000000000
+      internalID: -7721332097852698143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_63
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 27
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c876b92de19d947c0800000000000000
+      internalID: -4086496460456368244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_64
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 19
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e2e466d56255300800000000000000
+      internalID: 240140337724403293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_65
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 26
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea96ed6b64da1820800000000000000
+      internalID: 2889855668782013161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_66
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e521e29a36990fb40800000000000000
+      internalID: 5472042200574333534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_67
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2641ff7e1256a4b0800000000000000
+      internalID: -5429562009799539157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_68
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 29
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3773a3c456c678160800000000000000
+      internalID: 7027704925861328755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_69
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 20
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c53846a4e40765c0800000000000000
+      internalID: -4222400745547745855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_bg_water_twinkle_0021_70
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 28
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c5a77abf0046310800000000000000
+      internalID: 1397242865238301730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flower_bg_water_twinkle_0021_0: -8097166898067128988
+      flower_bg_water_twinkle_0021_1: 3547378337681929444
+      flower_bg_water_twinkle_0021_10: -3185355153242433469
+      flower_bg_water_twinkle_0021_11: -2293547533838589543
+      flower_bg_water_twinkle_0021_12: -5028439077045091031
+      flower_bg_water_twinkle_0021_13: 7700794334280393671
+      flower_bg_water_twinkle_0021_14: -4896316305264537551
+      flower_bg_water_twinkle_0021_15: 3056188900006304316
+      flower_bg_water_twinkle_0021_16: 8659124749160597190
+      flower_bg_water_twinkle_0021_17: -5086184739997681521
+      flower_bg_water_twinkle_0021_18: -8008005740978091242
+      flower_bg_water_twinkle_0021_19: 6344232665500107619
+      flower_bg_water_twinkle_0021_2: 2018863227825492148
+      flower_bg_water_twinkle_0021_20: 6595586059487958330
+      flower_bg_water_twinkle_0021_21: 4838823697275899061
+      flower_bg_water_twinkle_0021_22: 9144777815193067275
+      flower_bg_water_twinkle_0021_23: 7442856032323229079
+      flower_bg_water_twinkle_0021_24: -4391921053416931670
+      flower_bg_water_twinkle_0021_25: -3279760929805377772
+      flower_bg_water_twinkle_0021_26: -6219756214257875777
+      flower_bg_water_twinkle_0021_27: -5838032746081532621
+      flower_bg_water_twinkle_0021_28: 877122040820868937
+      flower_bg_water_twinkle_0021_29: -8064787600976202905
+      flower_bg_water_twinkle_0021_3: -8217726865027740332
+      flower_bg_water_twinkle_0021_30: 3007069398042984034
+      flower_bg_water_twinkle_0021_31: 3527773743142657344
+      flower_bg_water_twinkle_0021_32: -2890850035217639937
+      flower_bg_water_twinkle_0021_33: 1489024927258622443
+      flower_bg_water_twinkle_0021_34: 1149034365258360106
+      flower_bg_water_twinkle_0021_35: -2533904042351379174
+      flower_bg_water_twinkle_0021_36: -857785905916522490
+      flower_bg_water_twinkle_0021_37: 2022650611909648895
+      flower_bg_water_twinkle_0021_38: 6788678839089638208
+      flower_bg_water_twinkle_0021_39: -6153758362279850584
+      flower_bg_water_twinkle_0021_4: 4935523043778552443
+      flower_bg_water_twinkle_0021_40: -6881942721184929904
+      flower_bg_water_twinkle_0021_41: -6072543934124920011
+      flower_bg_water_twinkle_0021_42: -5187535664780775494
+      flower_bg_water_twinkle_0021_43: 3062730148048987298
+      flower_bg_water_twinkle_0021_44: 8134912838145836426
+      flower_bg_water_twinkle_0021_45: 9145352650145821865
+      flower_bg_water_twinkle_0021_46: 6618879710725082920
+      flower_bg_water_twinkle_0021_47: 9196768084953470411
+      flower_bg_water_twinkle_0021_48: 5858374554883306966
+      flower_bg_water_twinkle_0021_49: -1419040867408800582
+      flower_bg_water_twinkle_0021_5: 4348634985554919772
+      flower_bg_water_twinkle_0021_50: -2927704107567284124
+      flower_bg_water_twinkle_0021_51: -4190787855509511258
+      flower_bg_water_twinkle_0021_52: -3852841695384191750
+      flower_bg_water_twinkle_0021_53: -6832096778830258027
+      flower_bg_water_twinkle_0021_54: 2039535095347543047
+      flower_bg_water_twinkle_0021_55: 7083118175610060268
+      flower_bg_water_twinkle_0021_56: -7728128000219249098
+      flower_bg_water_twinkle_0021_57: 3654425037297473583
+      flower_bg_water_twinkle_0021_58: -5353124009367754228
+      flower_bg_water_twinkle_0021_59: -5390781104075805128
+      flower_bg_water_twinkle_0021_6: 8052871345167678645
+      flower_bg_water_twinkle_0021_60: 4847867787085040350
+      flower_bg_water_twinkle_0021_61: 6482135005492122384
+      flower_bg_water_twinkle_0021_62: -7721332097852698143
+      flower_bg_water_twinkle_0021_63: -4086496460456368244
+      flower_bg_water_twinkle_0021_64: 240140337724403293
+      flower_bg_water_twinkle_0021_65: 2889855668782013161
+      flower_bg_water_twinkle_0021_66: 5472042200574333534
+      flower_bg_water_twinkle_0021_67: -5429562009799539157
+      flower_bg_water_twinkle_0021_68: 7027704925861328755
+      flower_bg_water_twinkle_0021_69: -4222400745547745855
+      flower_bg_water_twinkle_0021_7: 6700290236105183861
+      flower_bg_water_twinkle_0021_70: 1397242865238301730
+      flower_bg_water_twinkle_0021_8: 3057070703919715740
+      flower_bg_water_twinkle_0021_9: -8965032811255742559
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

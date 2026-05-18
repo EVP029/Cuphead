@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 73318a07036174e98ae8225418e69e3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9000963633949581384
+    second: flower_chomper_death_0010_0
+  - first:
+      213: -1117997828256719103
+    second: flower_chomper_death_0010_1
+  - first:
+      213: -428256285925349644
+    second: flower_chomper_death_0010_2
+  - first:
+      213: 2271592741810860587
+    second: flower_chomper_death_0010_3
+  - first:
+      213: -8551600252357693220
+    second: flower_chomper_death_0010_4
+  - first:
+      213: 2834097351287066482
+    second: flower_chomper_death_0010_5
+  - first:
+      213: 7580686733839189532
+    second: flower_chomper_death_0010_6
+  - first:
+      213: 8088595967184947430
+    second: flower_chomper_death_0010_7
+  - first:
+      213: -5383106324104540669
+    second: flower_chomper_death_0010_8
+  - first:
+      213: -5250874239871063882
+    second: flower_chomper_death_0010_9
+  - first:
+      213: -5660584054026484704
+    second: flower_chomper_death_0010_10
+  - first:
+      213: 6714301345981218080
+    second: flower_chomper_death_0010_11
+  - first:
+      213: -3218913776303592404
+    second: flower_chomper_death_0010_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 280
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfd93a9347261380800000000000000
+      internalID: -9000963633949581384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 299
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f991b06e21c70f0800000000000000
+      internalID: -1117997828256719103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 274
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6679c4d278e0af0800000000000000
+      internalID: -428256285925349644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 298
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22fdf13091568f10800000000000000
+      internalID: 2271592741810860587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 259
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd03419f0ec925980800000000000000
+      internalID: -8551600252357693220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 286
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f475a768cb45720800000000000000
+      internalID: 2834097351287066482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_6
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 268
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1640049b62043960800000000000000
+      internalID: 7580686733839189532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 196
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e847bb4d27704070800000000000000
+      internalID: 8088595967184947430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 152
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e0793b15d5b45b0800000000000000
+      internalID: -5383106324104540669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 113
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b86c3cf2b52127b0800000000000000
+      internalID: -5250874239871063882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 79
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024c28e3bc09171b0800000000000000
+      internalID: -5660584054026484704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 95
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d3322108dfd2d50800000000000000
+      internalID: 6714301345981218080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_chomper_death_0010_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 60
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c20d899fe1453d0800000000000000
+      internalID: -3218913776303592404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flower_chomper_death_0010_0: -9000963633949581384
+      flower_chomper_death_0010_1: -1117997828256719103
+      flower_chomper_death_0010_10: -5660584054026484704
+      flower_chomper_death_0010_11: 6714301345981218080
+      flower_chomper_death_0010_12: -3218913776303592404
+      flower_chomper_death_0010_2: -428256285925349644
+      flower_chomper_death_0010_3: 2271592741810860587
+      flower_chomper_death_0010_4: -8551600252357693220
+      flower_chomper_death_0010_5: 2834097351287066482
+      flower_chomper_death_0010_6: 7580686733839189532
+      flower_chomper_death_0010_7: 8088595967184947430
+      flower_chomper_death_0010_8: -5383106324104540669
+      flower_chomper_death_0010_9: -5250874239871063882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
