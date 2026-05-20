@@ -8,7 +8,12 @@ public class Bullet : MonoBehaviour
 
     [Header("Cuphead System")]
     public bool isSpecial = false; 
+    public int damageValue = 1; // Ajusta cuánto daño hace cada disparo normal en Unity
+    public int specialDamageValue = 5; // NUEVO: Ajusta cuánto daño hace el ataque especial en Unity
     private PlayerMovement player;
+
+    [Header("Efectos de Calidad de Vida")]
+    public GameObject impactEffectPrefab; // NUEVO: Arrastra aquí tu Prefab del impacto visual
 
     public void SetDirection(float dir) 
     { 
@@ -31,6 +36,12 @@ public class Bullet : MonoBehaviour
 
     void Start() 
     { 
+        // NUEVO: Si es una bala especial, le asignamos el daño pesado antes de que golpee
+        if (isSpecial)
+        {
+            damageValue = specialDamageValue;
+        }
+
         Destroy(gameObject, lifeTime); 
         player = FindObjectOfType<PlayerMovement>();
         
@@ -46,9 +57,23 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) 
     { 
+        // MODIFICACIÓN: Si choca con un proyectil del enemigo, lo ignora olímpicamente
+        if (collision.CompareTag("Projectile") || collision.CompareTag("EnemyProjectile"))
+        {
+            return; 
+        }
+
+        // NUEVO: Intentamos hacer daño a cualquier objeto compatible (Jefe o Plantita)
+        IDamageable damageableTarget = collision.GetComponent<IDamageable>();
+        if (damageableTarget != null)
+        {
+            damageableTarget.TakeDamage(damageValue);
+        }
+
+        // Modificado para que explote al tocar el suelo
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground")) 
         { 
-            Destroy(gameObject); 
+            InstantiateImpact(); 
         } 
 
         if (collision.CompareTag("Enemy")) 
@@ -59,16 +84,32 @@ public class Bullet : MonoBehaviour
                 player.AddEnergy(0.1f);
             }
 
-            // Si es especial, podrías hacer que atraviese enemigos no destruyéndola
+            // Si es bala normal, explota e impacta inmediatamente
             if (!isSpecial) 
             {
-                Destroy(gameObject); 
+                // Modificado para que explote al tocar al enemigo
+                InstantiateImpact(); 
             }
             else 
             {
-                // Opcional: Destruir especial solo si choca con algo muy pesado
-                // Destroy(gameObject); 
+                // MODIFICADO: Si es ESPECIAL, solo spawnea el efecto visual del golpe en el aire,
+                // ¡pero NO destruye la bala! Así logra atravesar enemigos.
+                if (impactEffectPrefab != null)
+                {
+                    Instantiate(impactEffectPrefab, transform.position, Quaternion.identity);
+                }
             }
         } 
     } 
+
+    // NUEVO: Método centralizado para spawnear el efecto y autodestruirse
+    void InstantiateImpact()
+    {
+        if (impactEffectPrefab != null)
+        {
+            Instantiate(impactEffectPrefab, transform.position, Quaternion.identity);
+        }
+        
+        Destroy(gameObject);
+    }
 }

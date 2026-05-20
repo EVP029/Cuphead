@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 8f4d338834655f24581a1f47ffce90e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6075927787577740502
+    second: w2_npc_quadratus_ripples_0002_0
+  - first:
+      213: 1891829925859661611
+    second: w2_npc_quadratus_ripples_0002_1
+  - first:
+      213: -502920604343622318
+    second: w2_npc_quadratus_ripples_0002_2
+  - first:
+      213: -7919841879194866081
+    second: w2_npc_quadratus_ripples_0002_3
+  - first:
+      213: 7936936192384530785
+    second: w2_npc_quadratus_ripples_0002_4
+  - first:
+      213: -1847190560321257584
+    second: w2_npc_quadratus_ripples_0002_5
+  - first:
+      213: -3757143694100063326
+    second: w2_npc_quadratus_ripples_0002_6
+  - first:
+      213: -8906695504239851004
+    second: w2_npc_quadratus_ripples_0002_7
+  - first:
+      213: 5665234463266682381
+    second: w2_npc_quadratus_ripples_0002_8
+  - first:
+      213: -4539349230498674911
+    second: w2_npc_quadratus_ripples_0002_9
+  - first:
+      213: -8464048968362538087
+    second: w2_npc_quadratus_ripples_0002_10
+  - first:
+      213: 6322438781064388557
+    second: w2_npc_quadratus_ripples_0002_11
+  - first:
+      213: 6322740805757185372
+    second: w2_npc_quadratus_ripples_0002_12
+  - first:
+      213: 3394582620965030509
+    second: w2_npc_quadratus_ripples_0002_13
+  - first:
+      213: -9010603035244132493
+    second: w2_npc_quadratus_ripples_0002_14
+  - first:
+      213: -4164043151011442565
+    second: w2_npc_quadratus_ripples_0002_15
+  - first:
+      213: -5062705183464377940
+    second: w2_npc_quadratus_ripples_0002_16
+  - first:
+      213: -1198852146388694371
+    second: w2_npc_quadratus_ripples_0002_17
+  - first:
+      213: 8415836788504958759
+    second: w2_npc_quadratus_ripples_0002_18
+  - first:
+      213: 8300523138432990358
+    second: w2_npc_quadratus_ripples_0002_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 163
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc0f739128025450800000000000000
+      internalID: 6075927787577740502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 156
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2791525b41214a10800000000000000
+      internalID: 1891829925859661611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 165
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255afdbff544509f0800000000000000
+      internalID: -502920604343622318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_3
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 138
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ee351a5c1171290800000000000000
+      internalID: -7919841879194866081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 146
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16975005a69a52e60800000000000000
+      internalID: 7936936192384530785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 100
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fb893e8f57d56e0800000000000000
+      internalID: -1847190560321257584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 97
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab111767b1fbdbc0800000000000000
+      internalID: -3757143694100063326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_7
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 106
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a073be0af056480800000000000000
+      internalID: -8906695504239851004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 110
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06bf488ab4fe9e40800000000000000
+      internalID: 5665234463266682381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 94
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1270fa4ecedf001c0800000000000000
+      internalID: -4539349230498674911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 62
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b4d37ce48a98a80800000000000000
+      internalID: -8464048968362538087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 73
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf1f7bd290ddb750800000000000000
+      internalID: 6322438781064388557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_12
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 83
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d26067343eeb750800000000000000
+      internalID: 6322740805757185372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 58
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ac55398eafb1f20800000000000000
+      internalID: 3394582620965030509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_14
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 63
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37787389748e3f280800000000000000
+      internalID: -9010603035244132493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_15
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 49
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b709092f0d85636c0800000000000000
+      internalID: -4164043151011442565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 30
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1b3118578adb9b0800000000000000
+      internalID: -5062705183464377940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 30
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a894c1352dc5fe0800000000000000
+      internalID: -1198852146388694371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_18
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 38
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727908a58fe0bc470800000000000000
+      internalID: 8415836788504958759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w2_npc_quadratus_ripples_0002_19
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 7
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c753cf0d1613370800000000000000
+      internalID: 8300523138432990358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      w2_npc_quadratus_ripples_0002_0: 6075927787577740502
+      w2_npc_quadratus_ripples_0002_1: 1891829925859661611
+      w2_npc_quadratus_ripples_0002_10: -8464048968362538087
+      w2_npc_quadratus_ripples_0002_11: 6322438781064388557
+      w2_npc_quadratus_ripples_0002_12: 6322740805757185372
+      w2_npc_quadratus_ripples_0002_13: 3394582620965030509
+      w2_npc_quadratus_ripples_0002_14: -9010603035244132493
+      w2_npc_quadratus_ripples_0002_15: -4164043151011442565
+      w2_npc_quadratus_ripples_0002_16: -5062705183464377940
+      w2_npc_quadratus_ripples_0002_17: -1198852146388694371
+      w2_npc_quadratus_ripples_0002_18: 8415836788504958759
+      w2_npc_quadratus_ripples_0002_19: 8300523138432990358
+      w2_npc_quadratus_ripples_0002_2: -502920604343622318
+      w2_npc_quadratus_ripples_0002_3: -7919841879194866081
+      w2_npc_quadratus_ripples_0002_4: 7936936192384530785
+      w2_npc_quadratus_ripples_0002_5: -1847190560321257584
+      w2_npc_quadratus_ripples_0002_6: -3757143694100063326
+      w2_npc_quadratus_ripples_0002_7: -8906695504239851004
+      w2_npc_quadratus_ripples_0002_8: 5665234463266682381
+      w2_npc_quadratus_ripples_0002_9: -4539349230498674911
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

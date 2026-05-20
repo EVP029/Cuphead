@@ -75,6 +75,13 @@ public class PlayerMovement : MonoBehaviour
     [Header("Intro")]
     public bool isIntroPlaying = true; 
 
+    [Header("Efectos de Audio (Player SFX)")]
+    private AudioSource audioSource;
+    public AudioClip sonidoHit;       // Sonido cuando el jugador recibe daño
+    public AudioClip sonidoDash;      // Sonido cuando el jugador hace un dash
+    public AudioClip sonidoMuerte;    // Sonido cuando la salud llega a cero
+    [Range(0f, 1f)] public float volumenSFX = 0.8f;
+
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -93,6 +100,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Coroutine currentDashCoroutine;
     private float defaultGravity;
+    
+    private float groundedTimer;
 
     void Start()
     {
@@ -103,6 +112,12 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
 
         defaultGravity = rb.gravityScale;
+
+        // CONFIGURACIÓN AUTOMÁTICA DEL AUDIOSOURCE
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.spatialBlend = 0f; 
 
         if (isIntroPlaying)
         {
@@ -115,7 +130,21 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isDead || isGettingHit || isIntroPlaying || isUsingSpecial) return;
 
-        isGrounded = Physics2D.BoxCast(playerCollider.bounds.center, playerCollider.bounds.size, 0f, Vector2.down, 0.1f, groundLayer) && rb.linearVelocity.y <= 0.01f;
+        bool rawGrounded = Physics2D.BoxCast(playerCollider.bounds.center, playerCollider.bounds.size, 0f, Vector2.down, 0.1f, groundLayer | platformLayer) && rb.linearVelocity.y <= 0.05f;
+        
+        if (rawGrounded)
+        {
+            groundedTimer = 0.06f; 
+            isGrounded = true;
+        }
+        else
+        {
+            groundedTimer -= Time.deltaTime;
+            if (groundedTimer <= 0f)
+            {
+                isGrounded = false; 
+            }
+        }
 
         if (isGrounded && !isDashing)
         {
@@ -147,7 +176,6 @@ public class PlayerMovement : MonoBehaviour
         UpdateColliderState();
         UpdateFirePointPosition();
 
-        // CONTROL DE ENTRADA DEL SALTO / DESCENSO
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown("joystick button 0"))
         {
             if (isDucking && !isDashing)
@@ -157,6 +185,8 @@ public class PlayerMovement : MonoBehaviour
             else if (isGrounded && !isDucking && !isDashing)
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                isGrounded = false; 
+                groundedTimer = 0f;
             }
             else if (!isGrounded)
             {
@@ -204,23 +234,19 @@ public class PlayerMovement : MonoBehaviour
         float targetSpeed = isDucking || (isLookingUp && isShooting && isGrounded) ? 0 : moveInput * moveSpeed;
         rb.linearVelocity = new Vector2(targetSpeed, rb.linearVelocity.y);
 
-        // --- SISTEMA DE GRAVEDAD DINÁMICA SUAVIZADO ---
         if (!isGrounded)
         {
             if (isDroppingThroughPlatform || rb.linearVelocity.y < 0)
             {
-                // Cayendo: Peso ideal para el gameplay reactivo
                 rb.gravityScale = defaultGravity * gravityMultiplierDescending;
             }
             else if (rb.linearVelocity.y > 0 && !(Input.GetKey(KeyCode.Space) || Input.GetButton("Jump")))
             {
-                // Salto Corto Suavizado: Amortigua la velocidad vertical progresivamente en lugar de frenar en seco
                 rb.gravityScale = defaultGravity * gravityMultiplierAscending;
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.85f);
             }
             else
             {
-                // Subiendo normalmente con el botón presionado
                 rb.gravityScale = defaultGravity * gravityMultiplierAscending;
             }
         }
@@ -298,6 +324,9 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsJumping", false); 
         animator.Play("Dash", 0, 0f); 
         
+        // Audio del Dash
+        if (audioSource != null && sonidoDash != null) audioSource.PlayOneShot(sonidoDash, volumenSFX);
+
         rb.gravityScale = 0; 
         rb.linearVelocity = new Vector2(transform.localScale.x * dashSpeed, 0); 
         yield return new WaitForSeconds(dashTime); 
@@ -392,6 +421,9 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", 0f); 
         animator.SetTrigger("IsHit"); 
         
+        // Audio del Daño
+        if (audioSource != null && sonidoHit != null) audioSource.PlayOneShot(sonidoHit, volumenSFX);
+
         rb.linearVelocity = Vector2.zero; 
         
         if (applyKnockback) 
@@ -407,6 +439,10 @@ public class PlayerMovement : MonoBehaviour
     { 
         if (isDead) return; 
         isDead = true; 
+
+        // Audio de Muerte
+        if (audioSource != null && sonidoMuerte != null) audioSource.PlayOneShot(sonidoMuerte, volumenSFX);
+
         animator.SetBool("IsJumping", false); 
         animator.SetBool("IsDucking", false); 
         animator.SetFloat("Speed", 0); 
@@ -461,7 +497,6 @@ public class PlayerMovement : MonoBehaviour
         if (!isDead) rb.linearVelocity = new Vector2(0, fallBounceForce); 
     }
 
-    // DESCENSO DE PLATAFORMAS VELOZ E INDESTRUCTIBLE
     IEnumerator DropDownRoutine()
     {
         ContactPoint2D[] contacts = new ContactPoint2D[10];
@@ -483,13 +518,10 @@ public class PlayerMovement : MonoBehaviour
         {
             isDroppingThroughPlatform = true;
             
-            // Impulso vertical veloz hacia abajo para bajar instantáneamente
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, -10f); 
 
-            // Apagamos colisión de forma individual
             Physics2D.IgnoreCollision(playerCollider, platformToIgnore, true);
 
-            // Tiempo ultra corto para restaurar colisiones de inmediato tras cruzar
             yield return new WaitForSeconds(0.15f);
 
             Physics2D.IgnoreCollision(playerCollider, platformToIgnore, false);

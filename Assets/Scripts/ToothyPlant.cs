@@ -1,7 +1,8 @@
 using UnityEngine;
 using System.Collections;
 
-public class ToothyPlant : MonoBehaviour
+// Modificado: Se implementa la interfaz IDamageable para recibir daño de la bala
+public class ToothyPlant : MonoBehaviour, IDamageable
 {
     [Header("Ajustes de Caída")]
     public float fallSpeed = 7f;
@@ -14,6 +15,7 @@ public class ToothyPlant : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private Collider2D col;
+    private SpriteRenderer spriteRenderer; // NUEVO: Para poder hacer el parpadeo de color
     private bool hasHitGround = false;
     private bool isDead = false;
 
@@ -22,6 +24,7 @@ public class ToothyPlant : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         col = GetComponent<Collider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>(); // NUEVO: Inicialización del SpriteRenderer
 
         rb.freezeRotation = true;
         rb.gravityScale = 0f;
@@ -61,29 +64,58 @@ public class ToothyPlant : MonoBehaviour
         }
     }
 
-void PlantItself()
-{
-    hasHitGround = true;
-    
-    // En lugar de rb.simulated = false, hacemos esto:
-    rb.linearVelocity = Vector2.zero;
-    rb.bodyType = RigidbodyType2D.Kinematic; // Sigue activo para detectar a Cuphead, pero no le afecta la gravedad
+    void PlantItself()
+    {
+        hasHitGround = true;
+        
+        // En lugar de rb.simulated = false, hacemos esto:
+        rb.linearVelocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Kinematic; // Sigue activo para detectar a Cuphead, pero no le afecta la gravedad
 
-    anim.SetTrigger("HitGround"); 
-    
-    // Iniciamos el conteo de vida por tiempo
-    StartCoroutine(LifetimeRoutine());
-}
+        anim.SetTrigger("HitGround"); 
+        
+        // Iniciamos el conteo de vida por tiempo
+        StartCoroutine(LifetimeRoutine());
+    }
 
-    public void TakeDamage(float damage)
+    // Modificado: Cambiado a int para cumplir con la interfaz IDamageable
+    public void TakeDamage(int damage)
     {
         if (!hasHitGround || isDead) return;
 
         health -= damage;
+        
+        // NUEVO: Activa el parpadeo rojo al recibir el golpe
+        if (gameObject.activeInHierarchy)
+        {
+            StartCoroutine(FlashWhite());
+        }
+
         if (health <= 0) 
         {
             StartDeathSequence();
         }
+    }
+
+    // NUEVO: Corrutina de intermitencia idéntica a la de Cagney
+// Corrutina modificada en la planta para parpadear en blanco puro
+IEnumerator FlashWhite()
+    {
+        if (spriteRenderer == null) yield break;
+
+        Color originalColor = spriteRenderer.color;
+        Color flashColor = new Color(1f, 1f, 1f, 0.4f); // Blanco suavizado al 40%
+
+        // Parpadeo 1
+        spriteRenderer.color = flashColor;
+        yield return new WaitForSeconds(0.04f);
+        spriteRenderer.color = originalColor;
+        yield return new WaitForSeconds(0.04f);
+        
+        // Parpadeo 2
+        spriteRenderer.color = flashColor;
+        yield return new WaitForSeconds(0.04f);
+        spriteRenderer.color = originalColor;
     }
 
     IEnumerator LifetimeRoutine()

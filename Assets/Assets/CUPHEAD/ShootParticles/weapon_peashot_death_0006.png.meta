@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: c5f6cf3fb57bc417e87a5618f3051f49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7385162029877956043
+    second: weapon_peashot_death_0006_0
+  - first:
+      213: -3010742833082734618
+    second: weapon_peashot_death_0006_1
+  - first:
+      213: 1587020340243871843
+    second: weapon_peashot_death_0006_2
+  - first:
+      213: -7305238592389308537
+    second: weapon_peashot_death_0006_3
+  - first:
+      213: 1584832577124101969
+    second: weapon_peashot_death_0006_4
+  - first:
+      213: -6298337419625980440
+    second: weapon_peashot_death_0006_5
+  - first:
+      213: -6177722545538200127
+    second: weapon_peashot_death_0006_6
+  - first:
+      213: -8617591536204666367
+    second: weapon_peashot_death_0006_7
+  - first:
+      213: 7638522154055544248
+    second: weapon_peashot_death_0006_8
+  - first:
+      213: 7769091071738529847
+    second: weapon_peashot_death_0006_9
+  - first:
+      213: 6996512373065987028
+    second: weapon_peashot_death_0006_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: weapon_peashot_death_0006_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 237
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532fb681342a28990800000000000000
+      internalID: -7385162029877956043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_peashot_death_0006_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 269
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7ec0c4851b736d0800000000000000
+      internalID: -3010742833082734618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_peashot_death_0006_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 238
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3683e8f479a360610800000000000000
+      internalID: 1587020340243871843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_peashot_death_0006_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 204
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f192d74349e9a90800000000000000
+      internalID: -7305238592389308537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_peashot_death_0006_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 148
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fe2f305d47ef510800000000000000
+      internalID: 1584832577124101969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_peashot_death_0006_5
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 149
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed94a3ac7fc798a0800000000000000
+      internalID: -6298337419625980440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_peashot_death_0006_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 75
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd06486312544aa0800000000000000
+      internalID: -6177722545538200127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_peashot_death_0006_7
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 35
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10aab11e72a286880800000000000000
+      internalID: -8617591536204666367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_peashot_death_0006_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 37
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdae61bd6b710a60800000000000000
+      internalID: 7638522154055544248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_peashot_death_0006_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 70
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73842a6da2b51db60800000000000000
+      internalID: 7769091071738529847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_peashot_death_0006_10
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 28
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d339372fea981160800000000000000
+      internalID: 6996512373065987028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      weapon_peashot_death_0006_0: -7385162029877956043
+      weapon_peashot_death_0006_1: -3010742833082734618
+      weapon_peashot_death_0006_10: 6996512373065987028
+      weapon_peashot_death_0006_2: 1587020340243871843
+      weapon_peashot_death_0006_3: -7305238592389308537
+      weapon_peashot_death_0006_4: 1584832577124101969
+      weapon_peashot_death_0006_5: -6298337419625980440
+      weapon_peashot_death_0006_6: -6177722545538200127
+      weapon_peashot_death_0006_7: -8617591536204666367
+      weapon_peashot_death_0006_8: 7638522154055544248
+      weapon_peashot_death_0006_9: 7769091071738529847
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

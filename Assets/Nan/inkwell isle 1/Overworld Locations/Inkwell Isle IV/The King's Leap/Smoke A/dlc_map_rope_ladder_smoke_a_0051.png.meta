@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 27c06e7e8ceb1e74faf99bce349614d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7151825585963359936
+    second: dlc_map_rope_ladder_smoke_a_0051_0
+  - first:
+      213: 6726899926381389076
+    second: dlc_map_rope_ladder_smoke_a_0051_1
+  - first:
+      213: -7028292010213629524
+    second: dlc_map_rope_ladder_smoke_a_0051_2
+  - first:
+      213: -874083646526124163
+    second: dlc_map_rope_ladder_smoke_a_0051_3
+  - first:
+      213: -1602860901786742644
+    second: dlc_map_rope_ladder_smoke_a_0051_4
+  - first:
+      213: 227472659856879127
+    second: dlc_map_rope_ladder_smoke_a_0051_5
+  - first:
+      213: -9074094047817437062
+    second: dlc_map_rope_ladder_smoke_a_0051_6
+  - first:
+      213: 2029680287647751013
+    second: dlc_map_rope_ladder_smoke_a_0051_7
+  - first:
+      213: 6719450562969440855
+    second: dlc_map_rope_ladder_smoke_a_0051_8
+  - first:
+      213: 1665987836749945869
+    second: dlc_map_rope_ladder_smoke_a_0051_9
+  - first:
+      213: 6180225888852406890
+    second: dlc_map_rope_ladder_smoke_a_0051_10
+  - first:
+      213: -3825648457392965058
+    second: dlc_map_rope_ladder_smoke_a_0051_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 293
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041aa15858c9fbc90800000000000000
+      internalID: -7151825585963359936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 269
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4156097a7dfba5d50800000000000000
+      internalID: 6726899926381389076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 259
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1208977ad767e90800000000000000
+      internalID: -7028292010213629524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 243
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f05d8fd81aed3f0800000000000000
+      internalID: -874083646526124163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 211
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8093ac808e71c9e0800000000000000
+      internalID: -1602860901786742644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 214
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ee1eecd25282300800000000000000
+      internalID: 227472659856879127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 187
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70fa554a87521280800000000000000
+      internalID: -9074094047817437062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 191
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b5bd8c77fda2c10800000000000000
+      internalID: 2029680287647751013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 185
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75297939fa8404d50800000000000000
+      internalID: 6719450562969440855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 113
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c1a995c17ce1710800000000000000
+      internalID: 1665987836749945869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 123
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6278b0a3b294c550800000000000000
+      internalID: 6180225888852406890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlc_map_rope_ladder_smoke_a_0051_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 110
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a32954ff098eac0800000000000000
+      internalID: -3825648457392965058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dlc_map_rope_ladder_smoke_a_0051_0: -7151825585963359936
+      dlc_map_rope_ladder_smoke_a_0051_1: 6726899926381389076
+      dlc_map_rope_ladder_smoke_a_0051_10: 6180225888852406890
+      dlc_map_rope_ladder_smoke_a_0051_11: -3825648457392965058
+      dlc_map_rope_ladder_smoke_a_0051_2: -7028292010213629524
+      dlc_map_rope_ladder_smoke_a_0051_3: -874083646526124163
+      dlc_map_rope_ladder_smoke_a_0051_4: -1602860901786742644
+      dlc_map_rope_ladder_smoke_a_0051_5: 227472659856879127
+      dlc_map_rope_ladder_smoke_a_0051_6: -9074094047817437062
+      dlc_map_rope_ladder_smoke_a_0051_7: 2029680287647751013
+      dlc_map_rope_ladder_smoke_a_0051_8: 6719450562969440855
+      dlc_map_rope_ladder_smoke_a_0051_9: 1665987836749945869
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

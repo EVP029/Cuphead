@@ -1,0 +1,1 @@
+Since these sprites don't have valid entries in the resource files, they had to be manually cut out from the texture sheet, and as such don't have proper offsets and are possibly in the wrong order.

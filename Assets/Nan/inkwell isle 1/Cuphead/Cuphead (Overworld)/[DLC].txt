@@ -1,0 +1,7 @@
+The following animations were added post-launch:
+
+cuphead_world_map_down_idle_b
+cuphead_world_map_side_idle_b
+map_ch_sleep_diag_down
+map_ch_sleep_diag_up
+world_map_chalice_win_ch
